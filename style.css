@@ -37,7 +37,10 @@ header .logo a {
    
 }
 header .logo img{
+    position: absolute;
     width: 250px;
+    left: 50px;
+    top: 15px;
 
 }
 header ul{
@@ -113,14 +116,14 @@ header ul li a.signin{
 }
 body .brain{
     margin: auto;
+    position: relative;
 }
 body .brain p{
     z-index: 999;
-    
     flex: auto;
     position: absolute;
     font-weight: 600;
-    left: 80px;
+    left: 14vw;
     top: 150px;
     font-size: 18px;
     color: #fff;
@@ -129,7 +132,7 @@ body .brain p{
 }
 body .brain h1{
     top: 200px;
-    left: 80px;
+    left: 14vw;
     position: absolute;
     font-weight: 300 (light);
     font-size:48px;
@@ -137,32 +140,33 @@ body .brain h1{
     color: #ffffff;
 }
 body .brain button{
-    background-color: #fff;
+    z-index: 500;
+    background-color: #ffffff;
     font-family: 'Nunito',sans-serif;
     position:absolute;
     font-size: 18px;
     border-radius: 5px;
     color: #3db1ff;
-    margin: 40vw 14vw;
+    /* margin: 40vw 14vw; */
     transition: color 0.5s ease;
+    top: 80vh;
     border: none;
     padding: 8px 20px;
-    left: 10vw;
+    left: 25vw;
 }
 body .brain button:hover{
     color: #3db1ff;
     font-weight: bold;
-    position: absolute;
     
 }
 body .brain img{
     position: absolute;
     z-index: 998;
     /* max-width: unset; */
-    height: 658px;
-    width: 729px;
-    top: 50px;
-    right: 10px;
+    height: 35vw;
+    width: 40vw;
+    top: 10vw;
+    right:10vw;
     /* margin: 100px 5px 350px 580px; */
 }
 body .longbutton button{
@@ -174,14 +178,15 @@ body .longbutton button{
     left: 5vw;
     bottom: 18px;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #3db1ff;
-    margin: 0;
+    margin: 10px;
     transition: color 0.5s ease;
+    bottom: 50px;
 }
 body .longbutton button:hover{
     color: #3db1ff;
-    font-weight: bold;
+    font-weight: 700;
 }
 .hero-container1{
     z-index: 998;
@@ -215,7 +220,7 @@ body .longbutton button:hover{
 }
 .container1 button{
     background-color: #3db0ff;
-    /* padding: 15px 30px; */
+    padding: 15px 30px;
     border-radius: 5px;
     outline: none;
     font-size: 12px;
@@ -223,7 +228,8 @@ body .longbutton button:hover{
     transition: color 0.8s ease;
 }
 .container1 button:hover{
-    background-color: #0e6cab;
+    background-color: #62bcf8;
+    color: #000000;
 }
 .container2{
     display: flex;
